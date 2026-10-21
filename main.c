@@ -3,7 +3,7 @@
 int main() {
   int a;
 
-  printf("Nhap mot so nguyen: %d");
+ 
   scanf("%d, &a");
 
   if("%a!=2"){
