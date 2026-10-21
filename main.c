@@ -2,15 +2,15 @@
 
 int main() {
   int a, b, c;
-  scanf("%d, %a, %b, %c");
+  scanf("%d %d %d",&a,&b,&c);
   if(a>b>c){
-    printf("a");
+    printf("%d",a);
   }
   if(b>c>a){
-    printf("b");
+    printf("%d",b);
   }
   if(c>b>a){
-    printf("c");
+    printf("%d,c");
   }
   
   return 0;
