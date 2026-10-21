@@ -3,10 +3,10 @@
 int main() {
   int a;
 
-  printf("Nhap mot so nguyen:" ,%d);
-  scanf(%d, &a);
+  printf("Nhap mot so nguyen: %d");
+  scanf("%d, &a");
 
-  if(%a!=2){
+  if("%a!=2"){
     printf("LE");
   }
   else{
