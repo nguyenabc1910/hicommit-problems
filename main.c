@@ -4,7 +4,6 @@ int main() {
   int n;
 
   scanf("%d", &n);
-  int xeploai=4;
   switch(n){
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
