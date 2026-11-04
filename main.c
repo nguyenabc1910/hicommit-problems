@@ -3,6 +3,7 @@
 int main() {
   int n;
   scanf("%d", &n);
+  int xeploai=5;
   switch(XEP LOAI){
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
@@ -12,7 +13,7 @@ int main() {
       printf("XEP_LOAI_KHA"); break;
     case 4:
       printf("CEP_LOAI_TRUNG_BINH"); break;
-    default:
+    defaul:
       printf("khong hop le");
       
   }
