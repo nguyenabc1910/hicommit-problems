@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float dtb;
+  float dtb, drl;
   scanf("%f", &dtb);
   scanf("%f", &drl);
   if(dtb>=9.0 && drl >= 90){
@@ -10,7 +10,7 @@ int main() {
     printf("HOC_BONG_GIOI");
   } else if (7.0 <= dtb && drl >= 70){
       printf("HOC_BONG_KHA");
-    } else if {
+    } else {
       printf("KHONG_DAT");
       }  
   return 0;
