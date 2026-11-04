@@ -4,8 +4,17 @@ int main() {
   int n;
   scanf("%d", &n);
   switch(XEP LOAI){
-      case'XEP_LOAI_XUAT_SAC'
-      printf("%d", n,brak);
+    case 1:
+      printf("XEP_LOAI_XUAT_SAC"); break;
+    case 2:
+      printf("XEP_LOAI_GIOI"); break;
+    case 3:
+      printf("XEP_LOAI_KHA"); break;
+    case 4:
+      printf("CEP_LOAI_TRUNG_BINH"); break;
+    default:
+      printf("khong hop le");
+      
   }
   return 0;
 }
