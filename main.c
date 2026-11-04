@@ -2,9 +2,10 @@
 
 int main() {
   int n;
+
   scanf("%d", &n);
   int xeploai=4;
-  switch(xeploai){
+  switch(n){
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
     case 2:
@@ -13,10 +14,8 @@ int main() {
       printf("XEP_LOAI_KHA"); break;
     case 4:
       printf("XEP_LOAI_TRUNG_BINH"); break;
-    case 6:
-      printf("KHONG_HOP_LE"); break;
     default:
-      printf("LOI");
+      printf("KHONG_HOP_LE");
       
   }
   return 0;
