@@ -4,7 +4,7 @@ int main() {
   float dtb, drl;
   int drl;
   scanf("%f", &dtb);
-  scanf("%f", &drl);
+  scanf("%d", &drl);
   if(dtb<=9|| dtb<=10 && drl <= 90 || drl <=100){
     printf("HOC_BONG_XUAT_SAC");
   }
