@@ -3,8 +3,8 @@
 int main() {
   int n;
   scanf("%d", &n);
-  int xeploai=5;
-  switch(XEP LOAI){
+  int xeploai=4;
+  switch(xeploai){
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
     case 2:
