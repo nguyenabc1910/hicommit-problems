@@ -5,9 +5,9 @@ int main() {
   int drl;
   scanf("%f", &dtb);
   scanf("%d", &drl);
-  if(dtb<=9|| dtb<=10 && drl <= 90 || drl <=100){
+  if(dtb>=9|| dtb>=10 && drl >= 90 || drl >=100){
     printf("HOC_BONG_XUAT_SAC");
-  }
+  } else if (dtb >=8)
 
   
   return 0;
